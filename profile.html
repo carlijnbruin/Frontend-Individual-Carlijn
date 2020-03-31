@@ -1,0 +1,43 @@
+<!-- Mijn profiel -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link href='css/styles.css' rel="stylesheet" type='text/css'
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <title>Matchie</title>
+</head>
+
+  <body id="mijnprofiel">
+    <img src="images/logo-datingssite.png" class="logo" alt="Matchie logo">
+
+    <header>
+      <nav>
+        <a href="text.html" class="backButton"><img src="images/nav_pijltje.png" class="pijltjeTerug" alt="navigatie naar vorige pagina"></a>
+        <h1 class="stappen">Mijn profiel</h1>
+      </nav>
+    </header>
+
+    <div class="mijnProfielNaarLinks">
+      <div class="profielBackground">
+        <h2><%= firstName %>, <span><%= dateOfBirth %></span></h2>
+        <img src="images/location_icon.png" alt="locatie icoon">
+
+        <p><%= province %></p>
+        <img src="/<%= profilePic.path %>" id="profielfoto" alt="mijn profiel foto">
+
+        <div class="location"></div>
+
+        <p>'<%= textProfile %>'</p>
+        <img src="images/edit.png" alt="edit button">
+
+        <button type="submit">Door naar de singles!</button>
+      </div>
+    </div>
+    <script src="javascript/index.js"type="text/javascript"></script>
+  </body>
+</html>

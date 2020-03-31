@@ -1,0 +1,751 @@
+*{
+  font-family: 'Lato', sans-serif;
+  padding: 0em;
+  margin: 0em;
+  box-sizing: border-box;
+}
+
+body{
+background-image: url("../images/couple.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.logo{
+  display: none;
+}
+
+nav{
+  display: flex;
+  box-shadow: -1px 1px 14px rgba(0,0,0,0.3);
+  padding: 0.5em;
+  background-color: white;
+}
+
+nav h1{
+  color: grey;
+  font-weight: normal;
+  position: relative;
+  left: 40%;
+  transform: translateX(-60%);
+  top: 0.5em;
+}
+
+button{
+  display: block;
+  padding: 1em 2em 1em 2em;
+  border-radius: 40px;
+  margin-top: 1em;
+  max-width: 18em;
+  width: 100%;
+  font-size: 1.3em;
+  border-color: #EB5014;
+  box-shadow: -1px 6px 14px rgba(0,0,0,0.3);
+  background-color: #EB5014;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+.resetButton{
+  background-color: white;
+  color: grey;
+  padding: 0.5em;
+  width: 5em;
+  box-shadow: -1px 6px 14px rgba(0,0,0,0);
+  border-color: black;
+}
+
+/***************************/
+/***************************/
+/******** AANMELDEN ********/
+/***************************/
+/***************************/
+
+#aanmelden .logo{
+  width: 20em;
+  height: auto;
+  display: block;
+  margin: 1em auto 1em auto;
+}
+
+#aanmelden fieldset{
+  border: none;
+  margin: 1em auto 1em auto;
+}
+
+#aanmelden form{
+  width: 25em;
+  text-align: left;
+  margin: auto;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 0em 2em 2.3em 2em;
+  box-shadow: -1px 1px 14px rgba(0,0,0,0.3);
+}
+
+#aanmelden legend{
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+#aanmelden label{
+  font-size: 1.5em;
+  font-weight: normal;
+  display: block;
+}
+
+#aanmelden label:first-of-type{
+  margin-bottom: 0.3em;
+}
+
+#aanmelden label:nth-of-type(2), #aanmelden label:nth-of-type(3){
+  margin: 0.2em auto 0.3em auto;
+}
+
+#aanmelden input{
+  margin: 0em auto 0.5em auto;
+  width: 100%;
+  font-size: 1.3em;
+  font-weight: normal;
+  border-radius: 10px;
+  border-color: #EB5014;
+  border-width: 1px;
+  padding: 0.5em 0em 0.5em 0.5em;
+}
+
+#aanmelden #vanAanmeldenTotInloggen{
+  font-size: 1em;
+  font-weight: 300;
+  color: grey;
+  text-align: center;
+  position: relative;
+  top: -2em;
+}
+
+#aanmelden form p{
+  max-width: 30em;
+  text-align: left;
+  margin-left: 0em;
+  font-size: 0.8em;
+  color: grey;
+}
+
+#aanmelden form input:valid{
+  background-image: url(../images/check.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 14em;
+  border: 1px solid green;
+}
+
+#aanmelden p a{
+  text-decoration: underline;
+}
+
+@media (min-width: 50em) { /* Zodat alles links blijft */
+
+  #aanmelden p{
+    margin-left: 6.5em;
+  }
+
+  #aanmelden .logo{
+    margin-left: 6em;
+  }
+
+  #aanmelden #vanAanmeldenTotInloggen{
+    max-width: 18em;
+    margin-right: 0em;
+  }
+}
+
+/***************************/
+/***************************/
+/******** INLOGGEN  ********/
+/***************************/
+/***************************/
+
+#login .logo{
+  width: 20em;
+  height: auto;
+  display: block;
+  margin: 1em auto 1em auto;
+}
+
+#login fieldset{
+  border: none;
+  margin: 1em auto 1em auto;
+}
+
+#login form{
+  width: 25em;
+  text-align: left;
+  margin: auto;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 0em 2em 2.3em 2em;
+  box-shadow: -1px 1px 14px rgba(0,0,0,0.3);
+}
+
+#login legend{
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+#login label{
+  font-size: 1.5em;
+  font-weight: normal;
+  display: block;
+}
+
+#login label:first-of-type{
+  margin-bottom: 0.3em;
+}
+
+#login label:nth-of-type(2), #login label:nth-of-type(3){
+  margin: 0.2em auto 0.3em auto;
+}
+
+#login input{
+  margin: 0em auto 0.5em auto;
+  width: 100%;
+  font-size: 1.3em;
+  font-weight: normal;
+  border-radius: 10px;
+  border-color: #EB5014;
+  border-width: 1px;
+  padding: 0.5em 0em 0.5em 0.5em;
+}
+
+#login #vanAanmeldenTotInloggen{
+  font-size: 1em;
+  font-weight: 300;
+  color: grey;
+  text-align: center;
+  position: relative;
+  top: -2em;
+}
+
+#login form p{
+  max-width: 30em;
+  text-align: left;
+  margin-left: 0em;
+  font-size: 0.8em;
+  color: grey;
+}
+
+#login form input:valid{
+  background-image: url(../images/check.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 14em;
+  border: 1px solid green;
+}
+
+#login p a{
+  text-decoration: underline;
+}
+
+@media (min-width: 50em) { /* Zodat alles links blijft */
+
+  #login p{
+    margin-left: 6.5em;
+  }
+
+  #login .logo{
+    margin-left: 6em;
+  }
+
+  #login #vanAanmeldenTotInloggen{
+    max-width: 18em;
+    margin-right: 0em;
+  }
+
+#login form{
+    padding: 7em 2em 12.85em 2em !important;
+    margin-bottom: 1.2em;
+  }
+}
+
+/******************************/
+/******************************/
+/********** VOORNAAM **********/
+/******************************/
+/******************************/
+
+#voornaam form input{
+  margin: 1em auto 0.5em auto;
+  width: 100%;
+  font-size: 0.8em;
+  border-radius: 10px;
+  border-color: #EB5014;
+  border-width: 1px;
+  padding: 0.5em 0.0em 0.5em 0.5em;
+}
+
+#voornaam form input:valid{
+  background-image: url(../images/check.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 13em;
+  border: 1px solid green;
+}
+
+#voornaam form{
+  margin: 1em auto 1.5em auto;
+  width: 25em;
+  text-align: left;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 4em 2em 14em 2em;
+  box-shadow: -1px 1px 14px rgba(0,0,0,0.3);
+}
+
+#voornaam label{
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#voornaam form p{
+  margin: 1em auto 1em auto;
+  max-width: 30em;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: grey;
+}
+
+@media (min-width: 50em) {
+
+  a img{
+    position: relative;
+    top: 6em;
+    left: 3em;
+  }
+  .stappen{
+    box-shadow: none;
+    left: 8em !important;
+    top: 4.5em !important;
+    color: lightgrey !important;
+  }
+
+  header nav{
+    box-shadow: -1px 1px 14px rgba(0,0,0,0) !important;
+    background-color: transparent !important;
+  }
+
+  #voornaam button{
+    margin-bottom: -2em;
+  }
+
+  #voornaam form{
+    margin-bottom: 5em !important;
+  }
+
+  form{
+    margin: 1em auto auto 3em !important;
+    width: 25em !important;
+    border: 1px solid grey;
+    border-radius: 20px;
+    border-color: lightgrey;
+    background-color: white;
+  }
+
+  .logo{
+    margin: 1em auto -4.3em 6em;
+    display: inherit;
+    width: 20em;
+    height: auto;
+    display: block;
+  }
+
+  #voornaam form, #fotostoevoegen form, #geboortedatum form, #manvrouw form, #mijnprofiel form, #provincie form, #tekst_profiel form{
+    padding: 7em 2em 12.85em 2em !important;
+    margin-bottom: 1.2em;
+  }
+}
+
+/*******************************/
+/*******************************/
+/******** GEBOORTEDATUM ********/
+/*******************************/
+/*******************************/
+
+#geboortedatum form input{
+  margin: 1em auto 0.5em auto;
+  width: 100%;
+  font-size: 1.3em;
+  font-weight: normal;
+  border-radius: 10px;
+  border-color: #EB5014;
+  border-width: 1px;
+  padding: 0.5em 0.0em 0.5em 0.5em;
+}
+
+#geboortedatum form input:valid{
+  background-image: url(../images/check.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 7em;
+  border: 1px solid green;
+}
+
+#geboortedatum form{
+  margin: 1em auto 1.5em auto;
+  width: 25em;
+  text-align: left;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 4em 2em 17.5em 2em;
+  box-shadow: -1px 1px 14px rgba(0,0,0,0.3);
+}
+
+#geboortedatum label{
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#geboortedatum form p{
+  margin: 1em auto 1em auto;
+  max-width: 30em;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: grey;
+}
+
+/*******************************/
+/*******************************/
+/********** PROVINCIE **********/
+/*******************************/
+/*******************************/
+
+#provincie form{
+  margin: 1em auto 1.5em auto;
+  width: 25em;
+  text-align: left;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 4em 2em 16.6em 2em;
+  box-shadow: -1px 1px 14px rgba(0,0,0,0.3);
+}
+
+#provincie form label{
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#provincie form select{
+  margin: 1em auto 0.5em auto;
+  width: 100%;
+  height: 2.5em;
+  font-size: 1.3em;
+  font-weight: normal;
+  border-radius: 10px;
+  border-color: #EB5014;
+  border-width: 1px;
+}
+
+#provincie form select:valid{
+  background-image: url(../images/check.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 7.3em;
+  border: 1px solid green;
+}
+
+#provincie form p{
+  margin: 1em auto 1em auto;
+  max-width: 30em;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: grey;
+}
+
+/********************************/
+/********************************/
+/********* MAN / VROUW  *********/
+/********************************/
+/********************************/
+
+#manvrouw form{
+  margin: 1em auto 1.5em auto;
+  width: 25em;
+  text-align: left;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 0em 2em 15.5em 2em;
+  box-shadow: -1px 1px 14px rgba(0,0,0,0.3);
+}
+
+#manvrouw form fieldset{
+  border: none;
+}
+
+#manvrouw label{
+  margin: -1em auto 0.6em auto;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#manvrouw legend{
+  display: block;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: left;
+  padding: 2.2em 0em 0.5em 0em;
+}
+
+#manvrouw form fieldset p{
+  display: block;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: grey;
+  margin-top: 3em;
+  text-align: left;
+}
+
+#manvrouw input[type=radio]{ /* Radio buttons verdwijnen*/
+  padding: 20px;
+  display: none;
+}
+
+#manvrouw input[type=radio]:checked + label{ /* Indien gecheckt*/
+  background-color: #EB5014;
+  color: white;
+}
+
+#manvrouw legend{
+  margin-bottom: 2em;
+}
+
+#manvrouw label[for=man]{
+  margin: -1.9em auto 0.5em; 0.2em;
+  padding: 1em;
+  width: 5em;
+  border: 1px solid black;
+  float: left;
+  border-radius: 10px;
+  border: 2px solid #EB5014;
+  font-weight: normal;
+}
+
+#manvrouw label[for=vrouw]{
+  width: 5em;
+  padding: 1em 0.5em 1em 0.5em;
+  border: 1px solid black;
+  float: right;
+  border-radius: 10px;
+  margin-top: -1.9em;
+  border: 2px solid #EB5014;
+  font-weight: normal;
+}
+
+#manvrouw label{ /* tekst in vierkanten */
+  text-align: center;
+}
+
+@media (min-width: 50em) {
+  #manvrouw form{
+    padding: 2.3em 2em 12.5em 2em !important;
+    margin-bottom: 1.45em;
+  }
+}
+
+/******************************/
+/******************************/
+/****** FOTO'S TOEVOEGEN ******/
+/******************************/
+/******************************/
+
+#fotostoevoegen form{
+  margin: 1em auto 1.5em auto;
+  width: 25em;
+  text-align: left;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 1.5em 2em 3.55em 2em;
+  box-shadow: -1px 1px 14px rgba(0,0,0,0.3);
+}
+
+#fotostoevoegen form label{
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#fotostoevoegen p{
+  margin: 1em auto auto auto;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: grey;
+  width: 100%;
+  text-align: left;
+}
+
+#fotostoevoegen form input[type=file]{ /* Ruimte om te button heen */
+  width: 100%;
+  border-width: 1px;
+  padding: 1em;
+  margin-bottom: 10px;
+  box-shadow: -1px 6px 14px rgba(0,0,0,0.3);
+}
+
+#fotostoevoegen form input{
+  border: 0.5px solid #EB5014;
+  margin-top: 2em;
+  border-radius: 10px;
+}
+
+img#output{
+  max-width: 21em;
+}
+
+@media (min-width: 50em) {
+
+  #fotostoevoegen form{
+    padding: 4.4em 2em 0.5em 2em !important;
+    margin-bottom: 0.9em;
+  }
+}
+
+/*******************************/
+/*******************************/
+/******** TEKST PROFIEL ********/
+/*******************************/
+/*******************************/
+
+#tekst_profiel form{
+  margin: 1em auto 1.5em auto;
+  width: 25em;
+  text-align: left;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 4em 2em 11.65em 2em;
+  box-shadow: -1px 1px 14px rgba(0,0,0,0.3);
+}
+
+#tekst_profiel form label{
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#tekst_profiel textarea{
+  margin: 1em auto auto auto;
+  width: 100%;
+  font-size: 0.8em;
+  height: 5em;
+  padding: 0.2em 0.3em 0em 0.2em;
+}
+
+#tekst_profiel form p{
+  margin: 1em auto 1em auto;
+  max-width: 30em;
+  font-size: 0.8em;
+  font-weight: 300;
+  color: grey;
+}
+
+@media (min-width: 50em) {
+  #tekst_profiel form{
+    padding: 7em 2em 7.4em 2em !important;
+    margin-bottom: 2em;
+  }
+}
+
+/******************************/
+/******************************/
+/******** MIJN PROFIEL ********/
+/******************************/
+/******************************/
+
+#mijnprofiel #profielfoto{
+  margin: 1em auto 1em auto;
+  width: 20em;
+  display: block;
+  border-radius: 5px;
+}
+
+#mijnprofiel .profielBackground{ /* Witte achtergrond */
+  margin: 1em auto 1.6em auto;
+  background-color: white;
+  width: 25em;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 1em 0em 4em 0em;
+  box-shadow: -1px 1px 14px rgba(0,0,0,0.3);
+}
+
+#mijnprofiel nav h1{
+  color: grey;
+  font-weight: normal;
+  position: relative;
+  left: 40%;
+  transform: translateX(-60%);
+  top: 0.5em;
+}
+
+#mijnprofiel h2{
+  margin: 0.5em auto auto 1.5em;
+}
+
+#mijnprofiel h2 span{
+  font-weight: 100;
+  font-size: 0.6em;
+}
+
+#mijnprofiel .profielBackground img:first-of-type{ /* Locatie icon */
+  height: 1.7em;
+  width: -2em;
+  margin: 0.5em 0em -0.5em 0.5em;
+  padding-left: 1.5em;
+}
+
+#mijnprofiel .profielBackground p:first-of-type{ /* Locatie tekst */
+  font-size: 0.9em;
+  margin-top: -2em;
+  color: black;
+  display: inline-block;
+}
+
+#mijnprofiel .profielBackground p:last-of-type{
+  margin: auto 1em auto 1em;
+  font-family: 'Amatic SC', cursive;
+  font-size: 2em;
+}
+
+@media (min-width: 50em) {
+  #mijnprofiel .mijnProfielNaarLinks{
+    width: 25em !important;
+    margin: 1em auto auto 3em !important;
+    padding-bottom: 0em !important;
+  }
+
+  #mijnprofiel h2{
+    margin: 2.5em auto auto 1.5em;
+  }
+
+  #mijnprofiel .profielBackground{ /* Witte achtergrond */
+    margin-bottom: 1.2em;
+    padding-bottom: 0.5em;
+  }
+
+  #mijnprofiel #editButton{
+    position: relative;
+    top: -9em;
+    left: 16em;
+  }
+}
