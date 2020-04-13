@@ -12,25 +12,25 @@
     <title>Matchie</title>
 </head>
 
-  <body id="tekst_profiel">
-    <img src="images/logo-datingssite.png" class="logo" alt="Matchie logo">
+  <body>
+    <img src="images/logo-datingssite.png" class="allLogos" alt="Matchie logo">
 
     <header>
       <nav>
-        <a href="images.html" class="backButton"><img src="images/nav_pijltje.png" class="pijltjeTerug" alt="navigatie naar vorige pagina"></a>
-        <h1 class="stappen">Stap 7 / 7</h1>
+        <a href="images.html"><img src="images/nav_pijltje.png" alt="navigatie naar vorige pagina"></a>
+        <h1 class="steps">Stap 7 / 7</h1>
       </nav>
     </header>
 
-    <form id="myForm">
-      <label for="tekstProfiel">Wat andere over mij moeten weten:
-        <textarea class="tekstProfiel" name="textProfile" rows="8" cols="80" placeholder="Ik studeer marketing en hou van golf!" name="textProfile" require></textarea>
+    <form id="addTextForm">
+      <label>Wat andere over mij moeten weten:
+        <textarea rows="8" cols="80" placeholder="Ik studeer marketing en hou van golf!" required></textarea>
       </label>
 
       <p>Deze tekst komt op uw profiel te staan.</p>
 
-      <button type="button" class="resetButton" onclick="resetForm()">Reset</button>
-      <a href="profile.html"><button type="submit" onclick="alertBox()">Klaar!</button></a>
+      <button type="button" id="resetButton">Reset</button>
+      <a href="profile.html" id="alertBox">Klaar!</a>
     </form>
 
     <script src="javascript/index.js"type="text/javascript"></script>
