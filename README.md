@@ -26,7 +26,7 @@ Ben je opzoek naar een uitgebreide uitleg van bovenstaande onderwerpen? Bekijk d
 
 Meer weten over de layout? Bekijk dan deze Wiki! https://github.com/GuusDijkhuis/dating-app/wiki/Lay-out
 
-## Waarom zo'n kleine feature? :warning:
+## Waarom zo'n kleine feature? :question:
 
 Deze feature is onderdeel van een grotere webapp (incl. een eigen geschreven server d.m.v. backend). Mocht je het leuk vinden om te zien, dan kan je deze hierin bekijken:
 * Matchie webapp deployed: https://matchie-online-dating.herokuapp.com/login
