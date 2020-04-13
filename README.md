@@ -7,7 +7,7 @@ Mijn naam is Carlijn Bruin en ben tweede jaars student van de opleiding Communic
 ## Waarom deze repository? :question:
 
 Dit is de repository die ik heb gemaakt voor Frontend, wat onderdeel is van blok Tech. Hiervoor ga ik een feature uitwerken en hierbij ga ik Frontend elementen toepassen, die we hebben besproken in de les.
-De onderwerpen die hierin terug moeten komen zijn: Closure, Context, Scoping en Hoisting. Daarnaast moet de feature die je hebt uitgewerkt progressive enhanced zijn, wat gelukt is!
+De onderwerpen die hierin terug moeten komen zijn: Closure, Context, Scoping en Hoisting. Daarnaast moet de feature die je hebt uitgewerkt progressive enhanced zijn, wat gelukt is! Dit is de statische website van deze repo:  https://github.com/carlijnbruin/frontend-carlijn-individual
 
 Omdat ik niet alles in mijn eigen jobstory/feature kon toepassen, omdat ik een step-by-step formulier heb, heb ik een (nieuwe) one page formulier gemaakt, waarin ik de onderwerpen toe kon passen.
 Ik weet dat de leraren liever willen dat je het in je eigen jobstory/feature toepast en ik heb hier ook alles aan gedaan, maar dit was zeer lastig, omdat ik een step-by-step formulier heb, die per HTML pagina een andere formulier stap laat zien. 
