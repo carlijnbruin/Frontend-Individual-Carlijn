@@ -19,6 +19,13 @@ Incl. de statische website daarvan, gehost door GitHub pages: https://github.com
 
 Ben je opzoek naar een uitgebreide uitleg van bovenstaande onderwerpen? Bekijk dan de Wiki in deze repository!
 
+
+## Hoe ziet de webapp eruit? :lips:
+
+<img width="1280" alt="Schermafbeelding 2020-04-13 om 23 59 14" src="https://user-images.githubusercontent.com/59669604/79165149-cd612c80-7de2-11ea-9f75-39bcd86272aa.png">
+
+Meer weten over de layout? Bekijk dan deze Wiki! https://github.com/GuusDijkhuis/dating-app/wiki/Lay-out
+
 ## Waarom zo'n kleine feature? :warning:
 
 Deze feature is onderdeel van een grotere webapp (incl. een eigen geschreven server d.m.v. backend). Mocht je het leuk vinden om te zien, dan kan je deze hierin bekijken:
