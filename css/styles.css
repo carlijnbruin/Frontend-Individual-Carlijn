@@ -180,8 +180,8 @@ input:focus, button:focus, a:focus{
 
   #heartButton{
     position: absolute;
-    right: 20em;
-    top: 5em;
+    left: 8em;
+    top: 47em;
   }
 
   #signUpForm p{
