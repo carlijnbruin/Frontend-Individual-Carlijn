@@ -4,6 +4,10 @@
 
 Mijn naam is Carlijn Bruin en ben tweede jaars student van de opleiding Communication and Multimedia Design van de HvA.
 
+## Mijn jobstory:briefcase:
+
+Wanneer ik opzoek ga naar een date, wil ik mij kunnen registreren op een datingssite en een profiel aanmaken, zodat ik in in contact kan komen met andere singles en zij met mij.
+
 ## Waarom deze repository? :question:
 
 Dit is de repository die ik heb gemaakt voor Frontend, wat onderdeel is van blok Tech. Hiervoor ga ik een feature uitwerken en hierbij ga ik Frontend elementen toepassen, die we hebben besproken in de les.
@@ -15,7 +19,7 @@ Ik weet dat de leraren liever willen dat je het in je eigen jobstory/feature toe
 Deze extra repo, kan je hier vinden: https://github.com/carlijnbruin/frontend-carlijn-individual
 Incl. de statische website daarvan, gehost door GitHub pages: https://github.com/carlijnbruin/frontend-carlijn-individual
 
-## Uitleg over de onderwerpen :eyes:
+## Uitleg over de onderwerpen :eyeglasses:
 
 Ben je opzoek naar een uitgebreide uitleg van bovenstaande onderwerpen? Bekijk dan de Wiki in deze repository!
 
