@@ -4,7 +4,7 @@
 
 Mijn naam is Carlijn Bruin en ben tweede jaars student van de opleiding Communication and Multimedia Design van de HvA.
 
-## Mijn jobstory:briefcase:
+## Mijn jobstory :briefcase:
 
 Wanneer ik opzoek ga naar een date, wil ik mij kunnen registreren op een datingssite en een profiel aanmaken, zodat ik in in contact kan komen met andere singles en zij met mij.
 
